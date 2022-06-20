@@ -1,0 +1,139 @@
+<html>
+  <head>
+    <title>My Movie Poster</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section>
+
+        <!--actors-->
+        <ul class="actors">
+          <li>Isla Stewart</li>
+          <li>Leo Williams</li>
+          <li>Sophia York</li>
+        </ul>
+
+        <!--reviews-->
+        <blockquote>
+          <p>
+            "A masterpiece."
+          </p>
+          <footer><cite>Coby Singh, New York Times</cite></footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            "I laughed. I cried."
+          </p>
+          <footer><cite>Alyssa Warren, Detroit News</cite></footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            "Movie of the decade."
+          </p>
+          <footer><cite>Bayley Austin, Rolling Stone</cite></footer>
+        </blockquote>
+
+        <!--title-->
+        <h1>Should Have Been You</h1>
+        <h2>All actions have consequences...</h2>
+
+        <footer class="credits">
+
+          <!--credits-->
+          <p><strong>Jeydaida Pictures</strong> and <strong>Fifteen to Places Production</strong> presents a <strong>Jade Aida</strong> film <strong></p>
+          <p> Music by <strong>TWODUST</strong> Costume Design by <strong>FIFI HOUSTON</strong> Edited by <strong>AMY KLINE</strong> Production Design by <strong>VINCENZO</strong></p>
+          <p> Director of Photography <strong>FIONA SALGADO</strong> Executive Producer <strong>MAX CONWAY</strong> </p>
+          <p>COMING SOON 6.7.22</p>
+
+        </footer>
+      </section>
+    </div>
+
+    <!--style-->
+    <!--photo by Action Vance on Unsplash-->
+    <style>
+      body {
+        background-color:#051c1c;
+        /* Image */
+        background-image:url("https://i.imgur.com/gUiiPCp.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top center;
+        color:white;
+        font-family:'Trebuchet MS', sans-serif;  
+        text-align:center;     
+        padding:0; 
+
+      
+        
+      }
+      .wrapper {
+        margin:70px auto 30px;
+        max-width:850px;
+        padding:0px;
+        position: relative;
+
+        /* Text-shadow */
+        text-shadow: 5px 1px 4px black;
+      }
+      h1 , h2 {
+        font-family:georgia, serif;
+        font-style: italic;
+        font-weight: normal;
+      }
+      h1 {
+        font-family: URW Chancery L, serif;
+        font-size:116px;
+        letter-spacing: 2px;
+        margin-top:50px;
+        margin-bottom:0;
+        line-height: 1em;
+        color:red;
+      }
+      h2 {
+        margin-top:30px;
+        margin-bottom:100px;  
+        color:white;
+      }
+      .actors {
+        list-style-type: none;
+
+        text-transform: uppercase;
+        font-size: 20px;
+        margin:0 0 40px 0;
+      }
+      .actors li {
+        display: inline-block;
+        margin:0 20px;
+      }
+
+      blockquote {
+        display: inline-block;
+        width: 28%;
+        margin:0 2%;
+        font-size: 20px;
+      }
+      blockquote .star {
+        font-size: 40px;
+        display: block;
+      }
+      blockquote footer {
+        display: block;
+        font-size: 80%;
+      }
+
+      .credits {
+        font-size:10px;
+      }
+      .credits strong {
+        font-size:17px;
+      }
+
+    </style>
+
+  </body>
+</html>
